@@ -22,5 +22,9 @@
                 </Columns>
             </asp:GridView>
          </asp:Panel>
+        <br />
+        <asp:Button ID="btnDescarga" Text="Descarga" runat="server" OnClick="btnDescarga_Click" />
+        <asp:Button ID ="btnExcel" Text="Descargar Excel" runat="server" OnClick="btnExcel_Click" />
+        <asp:Button ID="btnEnvioCorreo" Text="Envio de correo" runat="server" OnClick="btnEnvioCorreo_Click" />
     </div>  
 </asp:Content>
